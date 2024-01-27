@@ -1,0 +1,26 @@
+/* Write your CSS code here */
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Roboto';
+  box-sizing: border-box;
+}
+
+.cart-page-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-container {
+  width: 80%;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.item-img {
+  width: 150px;
+}
